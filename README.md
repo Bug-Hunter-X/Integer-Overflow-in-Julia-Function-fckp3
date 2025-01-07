@@ -1,0 +1,2 @@
+# Integer Overflow in Julia
+This repository demonstrates a common error in Julia programming: integer overflow. The `my_function` in `bug.jl` squares positive inputs. If the input is large enough, the result might exceed the maximum representable integer, leading to unexpected behavior. The solution in `bugSolution.jl` uses `BigInt` to prevent this issue.
